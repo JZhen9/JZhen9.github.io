@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- 
+________   ________          ________  ___  ___  ________          ________  ___       ________     
+|\   ___  \|\   __  \        |\   __  \|\  \|\  \|\   ____\        |\   __  \|\  \     |\_____  \    
+\ \  \\ \  \ \  \|\  \       \ \  \|\ /\ \  \\\  \ \  \___|        \ \  \|\  \ \  \     \|___/  /|   
+ \ \  \\ \  \ \  \\\  \       \ \   __  \ \  \\\  \ \  \  ___       \ \   ____\ \  \        /  / /   
+  \ \  \\ \  \ \  \\\  \       \ \  \|\  \ \  \\\  \ \  \|\  \       \ \  \___|\ \  \____  /  /_/__  
+   \ \__\\ \__\ \_______\       \ \_______\ \_______\ \_______\       \ \__\    \ \_______\\________\
+    \|__| \|__|\|_______|        \|_______|\|_______|\|_______|        \|__|     \|_______|\|_______| -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YouBike</title>
+    <link rel="stylesheet" href="./index_file/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index_file/func.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <h1>台中市YouBike</h1>
+    </div>
+    <div class="list">
+        <button><a href="./">首頁</a></button>
+        <button id="point"><a href="./ubike.html">站點</a></button>
+        <button><a href="./instruction.html">使用說明</a></button>
+        <button><a href="./problem.html">常見問題</a></button>
+        <button><a href="./about.html">關於我們</a></button>
+    </div>
+    <div>
+        <form class="search">
+            <b>搜尋區域 : </b><input type="text" id="search" name="input" placeholder="EX : 大甲區" autocomplete="off">
+            <input type='button' id="submit" name='submit' value='送出'>
+        </form>
+    </div>
+    <div class="info">
+        <table class="clear">
+            <tr id="table">
+                <td>區域</td>
+                <td>地址</td>
+                <td>站點名稱</td>
+                <td>總數</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">
+        <button class="up">上一頁</button>
+        <button class="next">下一頁</button>
+    </footer>
+</body>
+
+</html>
