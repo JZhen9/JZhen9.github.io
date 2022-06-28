@@ -36,7 +36,7 @@
     });
 
     function getJs(ini, end) {
-        $.getJSON("./index_file/data.json", function (res) {
+        $.getJSON("./index_file/data.JSON", function (res) {
             setOri();
             len = res['retVal'].length;
             $(res['retVal']).each(function (index, item) {
